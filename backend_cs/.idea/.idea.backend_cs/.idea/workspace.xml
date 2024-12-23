@@ -8,7 +8,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="927217b1-2513-4688-af2d-5951d9eb5a19" name="Changes" comment="" />
+    <list default="true" id="927217b1-2513-4688-af2d-5951d9eb5a19" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend_cs/Service/ExcelReaderOpenXML.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.backend_cs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.backend_cs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_cs.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/backend_cs.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_cs/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/backend_cs/Program.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +22,12 @@
   <component name="DpaMonitoringSettings">
     <option name="firstShow" value="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1c3f7d5c03bf77051eb8a758fb3549c4e2d4cb3dc6f6d567a94a315044961e/List.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5c9618319c8bb992a410d754c6fd33435b7db8e22e7bdf7763a9b3490c28a/Number.Parsing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d2bc784934c166a72f6fd0bf1b9136c189d7198ad8d7bc71f19af1f69bc3b17/XLCellValue.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
@@ -34,8 +44,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.backend_cs: http.executor&quot;: &quot;Debug&quot;,
+    &quot;.NET Launch Settings Profile.backend_cs: http.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -116,6 +128,9 @@
       <workItem from="1734730862823" duration="28000" />
       <workItem from="1734730898037" duration="2505000" />
       <workItem from="1734784792556" duration="311000" />
+      <workItem from="1734954145492" duration="1696000" />
+      <workItem from="1734957782264" duration="312000" />
+      <workItem from="1734958368614" duration="22000" />
     </task>
     <servers />
   </component>
@@ -125,5 +140,50 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/backend_cs/Service/ExcelReaderOpenXML.cs</url>
+          <line>67</line>
+          <properties documentPath="$PROJECT_DIR$/backend_cs/Service/ExcelReaderOpenXML.cs" containingFunctionPresentation="Method 'ReadExcel'">
+            <startOffsets>
+              <option value="2331" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2355" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/backend_cs/Service/ExcelReaderOpenXML.cs</url>
+          <line>34</line>
+          <properties documentPath="$PROJECT_DIR$/backend_cs/Service/ExcelReaderOpenXML.cs" containingFunctionPresentation="Method 'ReadExcel'">
+            <startOffsets>
+              <option value="1176" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1257" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/backend_cs/Service/ExcelReaderOpenXML.cs</url>
+          <line>40</line>
+          <properties documentPath="$PROJECT_DIR$/backend_cs/Service/ExcelReaderOpenXML.cs" containingFunctionPresentation="Lambda expression inside Method 'ReadExcel'">
+            <startOffsets>
+              <option value="1333" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1387" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -29,7 +29,8 @@ if (app.Environment.IsDevelopment())
 
 app.MapGet("/", () => {
     var stopwatch = Stopwatch.StartNew();
-    var data = ExcelReader.ReadExcel("sample.xlsx");
+    // var data = ExcelReader.ReadExcel("sample.xlsx");
+    var data = ExcelReaderOpenXML.ReadExcel("sample.xlsx");
     stopwatch.Stop();
     Console.Out.WriteLine(stopwatch.Elapsed);
     return data;
